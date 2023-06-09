@@ -1,0 +1,57 @@
+.container {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+    border: 1px solid #aeafb5;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 14px;
+
+}
+.call,.hours{
+    color: #aeafb5;
+}
+.left{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+align-items: center;}
+.right{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+
+}
+.btn{
+    background-color: #6ab165;
+    padding: 8px 26px;
+    border: none;
+    color: white;
+    font-size: 16px;
+margin-bottom: 8px;
+}
+.btn:hover{
+    background-color: #ffffff;
+color: #6ab165;
+border: 1px solid #6ab165;
+transition: all     0.3s ease-in-out;
+}
+@media (max-width: 1047px) {
+    .btn {
+      display: none;
+    }
+    .container {
+        width: 100%;
+    }
+  }
+  @media (max-width: 780px)
+  {
+    .container {
+        display: none;
+    }
+  }
