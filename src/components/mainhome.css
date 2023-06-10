@@ -1,7 +1,9 @@
   /* CSS */
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;600&display=swap');
 
-.main-div{
+  .main-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,4 +202,82 @@
         align-items: center;
         width: auto;
 gap: 30px;      }
+.cards-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+} .cards{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px 0px 0px;
+}
+.left-img{
+    margin-left: 0px;
+}
+.main-content{
+    margin: 0px;
+}
+
+ }
+ .main-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ }
+ .content{
+    width: 80%;
+    margin-bottom: 10px;
+ }
+ .content h1{
+    font-size: 40px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+
+ }
+ .hr-t{
+    margin-top: 40px;
+  border: 1px solid #ebebeb;
+ }
+ .left-img{
+    color: red;
+    font-size: 36px;
+    margin-left: 5px;
+margin-top: 20px; }
+ .cards{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 30px;
+ }
+ .right-content{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+ }
+ .right-content h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+ }
+ .right-content p{
+    margin-top: 10px;
+display: block;
+color: #7d868f;
+font-size: 13px;
+
+ }
+ .cards{
+    margin-top: 30px;
+
+ }
+ .cards-container{
+    display: flex;
+    justify-content: space-between;
+ }
+ .ac{
+    color: crimson;
  }

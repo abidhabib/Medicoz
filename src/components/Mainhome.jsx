@@ -2,9 +2,15 @@ import React from 'react'
 import { FaLocationArrow } from 'react-icons/fa';
 import './mainhome.css'
 import { MdFileDownloadDone } from 'react-icons/md';
+import { FaStethoscope } from 'react-icons/fa'
 import img1 from '../img/img1.jpg'
 import img2 from '../img/img2.jpg'
 import img3 from '../img/img3.jpg'
+import { BsDropletFill, BsEyeFill } from 'react-icons/bs'
+
+
+
+
 
 const Mainhome = () => {
     return (
@@ -44,8 +50,74 @@ const Mainhome = () => {
                     </div> </div>
 
             </div>
-        <h1>WHAT WE OFFER</h1>
+            <div className="main-content">
+                <div className="content">
 
+                    <h1>
+                        WHAT WE OFFER
+                    </h1>
+                    <hr className='hr-t' />
+                    <div className="cards-container">
+                        <div className="cards">
+
+                            <div className="left-img">
+                                <FaStethoscope />
+                            </div>
+                            <div className="right-content">
+
+
+                                <h2>HIGHLY TRAINED STAFF</h2>
+                                <p>
+                                    Patient care is our #1 priority. Our highly trained staff of<br /> professionals will be here to make sure the care and <br /> service you are provided is one you can trust and count on.
+                                </p>
+
+
+                            </div>
+
+                        </div>
+
+                        <div className="cards">
+
+                            <div className="left-img">
+                                <BsDropletFill />
+                            </div>
+                            <div className="right-content">
+
+
+                                <h2>NO APPOINTMENT NEEDED</h2>
+                                <p>
+                                    At Bronx Park Urgent Medical Care you never need <br /> an appointment. Our wait times are minimal <br /> and patient care is our top priority.
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                        <div className="cards">
+
+                            <div className="left-img">
+                                <BsEyeFill />
+                            </div>
+                            <div className="right-content">
+
+
+                                <h2>CONVENIENT CARE</h2>
+                                <p>
+                                    We offer convenient access to a range of <a className='ac' href="/services">services</a>  including Strep/Flu/Covid testing, Physicals, <br /> Vaccinations, and more.
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
 
         </>)
 }
