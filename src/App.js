@@ -2,6 +2,7 @@ import React from 'react'
 import Top from './components/Top'
 import Sidebar from './components/Sidebar'
 import Slider from './components/Slider'
+import Mainhome from './components/Mainhome'
 const App = () => {
   return (
 <>
@@ -10,6 +11,7 @@ const App = () => {
 <Top/>
 <Sidebar/>
 <Slider/>
+<Mainhome/>
 
 
 </>  )

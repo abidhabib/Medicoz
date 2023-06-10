@@ -26,7 +26,7 @@ function createSlide(url) {
     <>
     <SwiperSlide >
       
-             <img className="img" src={url} alt="" />)
+             <img className="img" src={url} alt="" />
             
     </SwiperSlide>
 

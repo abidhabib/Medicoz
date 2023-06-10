@@ -1,0 +1,175 @@
+  /* CSS */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .container-main{
+    width: 100%;
+    margin-top: -20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+  }  
+  .timing h1{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+  }
+  
+  
+  .button-17 {
+      align-items: center;
+      appearance: none;
+      background-color: #fff;
+      border-radius: 24px;
+      border-style: none;
+      box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+      box-sizing: border-box;
+      color: #3c4043;
+      cursor: pointer;
+      display: inline-flex;
+      gap: 8px;
+      fill: currentcolor;
+      font-size: 14px;
+      font-weight: 500;
+      height: 48px;
+      justify-content: center;
+      letter-spacing: .25px;
+      line-height: normal;
+      max-width: 100%;
+      overflow: visible;
+      padding: 2px 24px;
+      text-align: center;
+      text-transform: none;
+      transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: auto;
+      will-change: transform,opacity;
+    }
+    .button-17 a{
+        font-family: 'Poppins', sans-serif;
+
+    }
+    
+    .button-17:hover {
+      background: #F6F9FE;
+      color: #174ea6;
+    }
+    
+    .button-17:active {
+      box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+      outline: none;
+    }
+    
+    .button-17:focus {
+      outline: none;
+      border: 2px solid #4285f4;
+    }
+    
+    .button-17:not(:disabled) {
+      box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+    }
+    
+    .button-17:not(:disabled):hover {
+      box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+    }
+    
+    .button-17:not(:disabled):focus {
+      box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+    }
+    
+    .button-17:not(:disabled):active {
+      box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+    }
+    
+    .button-17:disabled {
+      box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+    }
+
+    @media (max-width: 1047px) {
+       .container-main{
+        display: block;
+        font-size: 26px;
+        margin-top: -3px;
+        height: 250px;
+        padding: 10px   ;
+       }
+       .diriction{
+        margin-top: 10px;
+       }
+      }
+      /* Book Now */
+
+
+  .booknow{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+/* CSS */
+.button-37 {
+    width: 100%;
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 20px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  
+}
+.button-37 a{
+    color : white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+  background-color: #1aa353;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+
+}
+@media (max-width: 768px) {
+    .booknow{
+        width: 100%;
+    }
+    .button-37 {
+        width: 100%;
+      padding: 10px;
+    }
+  
+  }
