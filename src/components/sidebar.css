@@ -179,6 +179,7 @@ li {
     grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
     margin-top: 0px;
  margin-left: 0px;
+ transition: all 1s ease-in-out;
   }
 
   .menu-link {
@@ -194,11 +195,15 @@ li {
     grid-column: 2/4;
     position: relative;
     z-index: 99;
+
+ 
+    
   }
+
 
   .mobile-menu-link {
     background-color: white;
-    height: 20rem;
+    height: 35rem;
     display: grid;
     grid-column: 2/5;
     align-items: center;
@@ -210,11 +215,13 @@ li {
   }
 
   .mobile-menu-link ul {
-    height: 20rem;
+    height: 30rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    align-items: start;
+    align-items: end;
+    margin-right: 30px;
+transition: all 2s ease-in-out;    
   }
 
   .mobile-menu-link ul li:first-child {
@@ -273,6 +280,8 @@ li {
     margin-left: 5px;
     
   }
+ 
+  
 }
 
 @media (max-width: 520px) {

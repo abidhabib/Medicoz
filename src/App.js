@@ -3,6 +3,7 @@ import Top from './components/Top'
 import Sidebar from './components/Sidebar'
 import Slider from './components/Slider'
 import Mainhome from './components/Mainhome'
+import Footer from './components/Footer'
 const App = () => {
   return (
 <>
@@ -12,6 +13,7 @@ const App = () => {
 <Sidebar/>
 <Slider/>
 <Mainhome/>
+<Footer/>
 
 
 </>  )
