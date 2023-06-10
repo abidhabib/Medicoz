@@ -13,6 +13,8 @@ html {
 
 a {
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+font-weight: 600;
 }
 
 li {
@@ -30,7 +32,13 @@ li {
   display: grid;
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
  margin-top: 30px;
- margin-left: 50px;
+ position: sticky;
+ justify-content: space-around  ;
+ background-color: white;
+ top: 0;
+ width: 100%;
+ z-index: 12;
+
 }
 
 .logo {
@@ -39,6 +47,7 @@ li {
   grid-column: 2/3;
   justify-content: start;
   align-items: center;
+  margin-left: 50px;
 }
 
 .menu-link {
@@ -54,6 +63,9 @@ li {
 
 .social-media {
   grid-column: 4/5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .social-media ul {
@@ -94,15 +106,17 @@ li {
 .menu-link ul li a {
   text-transform: capitalize;
   color: rgba(0, 0, 3, 0.8);
-  transition: 0.5s;
 }
 .menu-link ul li:hover > a {
-  transform-origin: left;
-  color: rgba(0, 0, 3, 1);
-  text-decoration: underline;
-  transition: 0.5s;
+  color: rgb(255, 0, 0);
+  border-bottom: 2px solid  red;
+  transition: all ;
 }
 
+.home-active{
+  color: rgb(255, 0, 0);
+  border-bottom: 2px solid #ff2222;
+}
 .social-media ul li {
   font-size: 1.8rem;
 }
@@ -255,6 +269,10 @@ li {
     display: block;
     font-size: 2.5rem;
   }
+  .logo{
+    margin-left: 5px;
+    
+  }
 }
 
 @media (max-width: 520px) {
@@ -290,3 +308,5 @@ li {
     font-size: 3.8rem;
   }
 }
+.social-media .btn{
+transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s ease-in-out;}
