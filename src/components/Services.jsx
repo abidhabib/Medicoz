@@ -13,7 +13,9 @@ const Services = () => {
 
         }}>
 
-          <h1><span 
+          <h1 
+         
+          ><span 
           style={{
             color: 'crimson',
 
@@ -103,6 +105,9 @@ const Services = () => {
             </div>
 
             <div className="med-right">
+                      <h1>
+                        Contact Form
+                      </h1>
 
             </div>
           </div>
