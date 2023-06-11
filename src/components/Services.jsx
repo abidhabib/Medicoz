@@ -13,7 +13,18 @@ const Services = () => {
 
         }}>
 
-          <h1>Our Services</h1>
+          <h1><span 
+          style={{
+            color: 'crimson',
+
+          }}
+          >O</span>ur <span
+          
+          style={{
+            color: 'crimson',
+
+          }}
+          >S</span>ervices</h1>
           <img src={servisebg} alt="" />
 
         </div>
@@ -28,12 +39,8 @@ const Services = () => {
         <div className="medical">
           <div className="med-divs">
             <div className="med-left">
-              <h1
-                style={{
-                  fontSize: '30px',
-                  marginBottom: '30px',
-                  marginTop: '30px'
-                }}
+              <h1 className='p1-h1'
+             
 
               >
                 MEDICAL SERVICES
@@ -43,12 +50,8 @@ const Services = () => {
 
               <div className="left-content">
                 <div className="p1">
-                  <h1
-                    style={{
-                      fontSize: '30px',
-                      marginBottom: '30px',
-                      marginTop: '30px',
-                    }}
+                  <h1 className='p1-h1'
+                    
                   >Medical Conditions Treated</h1>
                   <ul>
                     <li>Lacerations / cuts on skin</li>
@@ -86,7 +89,7 @@ const Services = () => {
                     <li>Urinalysis</li>
                     <li>Urine Pregnancy</li>
                     <li>STD testing</li>
-                    <li>Blood tests can be sent to outside labs like Quest, and Bioreference for patients if the need arises- results come back in 1-5 days depending on the test ordered.</li>
+                    <li>Blood tests can be sent to outside labs like Quest,  and Bioreference <br /> for patients if the need arises- results come back in 1-5 days <br />depending  on the test ordered.</li>
                     <li>Splinting of bones</li>
                     <li>Suturing of lacerations or cuts</li>
                     <li>Asthma nebulizer treatments</li>

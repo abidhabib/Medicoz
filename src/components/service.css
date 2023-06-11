@@ -123,6 +123,28 @@ margin-top: 30px;
         margin-top: 30px;
        
     } 
+    .p1 ul li{
+    margin-left: 16px; 
+font-size: 14px; }
+    .p2 ul li{
+    margin-left: 0px; 
+    font-size: 14px; }
+    .p1 ,.p2{
+        width: 100%;
+    }
+    .p1-h1{
+        width: 100%;
+        font-size: 30px !important;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .med-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     
+        padding: 20px;
+    }
     .hello{
         display: flex;
         flex-direction: column;
@@ -131,9 +153,9 @@ margin-top: 30px;
         width: 100%;
         display: flex;
         flex-direction: column;
-       ;
+       
     }
-
+  
     .service-img-cont{
             margin-left: 0px !important;
 
@@ -155,6 +177,8 @@ margin-top: 30px;
 .left-content{
     display: flex ;
     flex-direction: column ;
+    justify-content: center;
+    align-items: center;
 }
  .med-divs{
     width: 100%;
@@ -171,6 +195,7 @@ margin-top: 30px;
     font-size: 16px !important;
   }
   
+  
   }
 
 .service-content-x{
@@ -184,3 +209,14 @@ margin-top: 30px;
     font-size: 20px;
     padding: 20px;
 }
+.p1-h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.p1 ul li{
+    margin-left: 18px; 
+font-size: 18px; }
+    .p2 ul li{
+    margin-left: 0px; 
+    font-size: 14px; }
