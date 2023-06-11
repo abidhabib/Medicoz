@@ -21,7 +21,7 @@ const Mainhome = () => {
                         <h1>OPEN: Monday - Friday 9am - 7pm / Saturday 9-5 / Closed on Sunday</h1>
                     </div>
                     <div className="diriction">
-                        <button className='button-17'> <a target='blank' href="https://www.google.com/maps/dir//40.8506569,-73.8655286/@40.850657,-73.865529,16z?hl=en-US"> Book Now ! </a><span><FaLocationArrow /></span> </button>
+                        <button className='button-17'> <a target='blank' href="https://www.google.com/maps/dir//40.8506569,-73.8655286/@40.850657,-73.865529,16z?hl=en-US">Get Directions</a><span><FaLocationArrow /></span> </button>
 
                     </div>
 
@@ -53,7 +53,7 @@ const Mainhome = () => {
             <div className="main-content">
                 <div className="content">
 
-                    <h1>
+                    <h1 className='offer'>
                         WHAT WE OFFER
                     </h1>
                     <hr className='hr-t' />
