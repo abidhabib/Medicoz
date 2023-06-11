@@ -1,20 +1,20 @@
 import React from 'react'
 import servisebg from '../img/servicebg.jpg'
 import servisebg2 from '../img/serviceH.png'
-import { AiTwotoneLike ,AiFillStar} from 'react-icons/ai'
-import {FcLike} from 'react-icons/fc'
+import { AiTwotoneLike, AiFillStar } from 'react-icons/ai'
+import { FcLike } from 'react-icons/fc'
 import './service.css'
 const Services = () => {
   return (
     <>
       <div className="service-content">
-        <div  className="service-content-x"  style={{
+        <div className="service-content-x" style={{
           // backgroundImage: `url(${servisebg})`,
-       
+
         }}>
 
           <h1>Our Services</h1>
-<img src={servisebg} alt="" />
+          <img src={servisebg} alt="" />
 
         </div>
         <div className='hrt'>
@@ -112,7 +112,7 @@ const Services = () => {
             <div className="serviceh"
               style={{
                 backgroundImage: `url(${servisebg2})`,
-            
+
               }}
             >
               <div className="div-s-c">
@@ -130,88 +130,82 @@ const Services = () => {
               </div>
             </div>
           </div>
-        
+
         </div>
-<div className="hello" 
-style={{
-  width: '100%',
-  display: 'flex',
-  justifyContent: 'space-around',
-  alignItems: 'center',
-  marginTop: '50px'
-}}
->
-        <div className="cards-container"
-        style={{
-          width: '80%',
-          display: 'flex',
-          alignItems: 'center',
-        
-     
-        }}
-        
-        >
-                        <div className="cards"
-                     style={{
-                      //  here i can ad style
-                     }}
-                        >
-
-                            <div className="left-img">
-                                <AiTwotoneLike />
-                            </div>
-                            <div className="right-content">
-
-
-                                <h2>PATIENT CARE
-</h2>
-                                <p>
-                                Patient Care is our top priority. Our highly trained professional staff will be kind and professional. Please stop by to see the Bronx Park Urgent Medical Care difference.                                </p>
-
-
-                            </div>
-
-                        </div>
-
-                        <div className="cards">
-
-                            <div className="left-img">
-                                <FcLike />
-                            </div>
-                            <div className="right-content">
-
-
-                                <h2>KIND & PROFESSIONAL STAFF</h2>
-                                <p>
-                                When the need for an urgent care visit arrives you can rest assured that our kind and professional staff will be here for you.                                </p>
-
-
-                            </div>
-
-                        </div>
-                        <div className="cards">
-
-                            <div className="left-img">
-                                <AiFillStar />
-                            </div>
-                            <div className="right-content">
-
-
-                                <h2>OPEN 6 DAYS A WEEK</h2>
-                                <p>
-                                Mon to Fri – 8:00am to 9:00pm
-Saturday – 9:00am to 5:00pm
-Sunday – Closed                                </p>
-
-
-                            </div>
-
-                        </div>
-                    </div>
+        <div className="hello"
       
+        >
+          <div className="cards-container"
+            style={{
+              width: '80%',
+              display: 'flex',
+              alignItems: 'center',
 
 
-                    </div>
+            }}
+
+          >
+            <div className="cards"
+              style={{
+                //  here i can ad style
+              }}
+            >
+
+              <div className="left-img">
+                <AiTwotoneLike />
+              </div>
+              <div className="right-content">
+
+
+                <h2>PATIENT CARE
+                </h2>
+                <p>
+                  Patient Care is our top priority. Our highly trained professional staff will be kind and professional. Please stop by to see the Bronx Park Urgent Medical Care difference.                                </p>
+
+
+              </div>
+
+            </div>
+
+            <div className="cards">
+
+              <div className="left-img">
+                <FcLike />
+              </div>
+              <div className="right-content">
+
+
+                <h2>KIND & PROFESSIONAL STAFF</h2>
+                <p>
+                  When the need for an urgent care visit arrives you can rest assured that our kind and professional staff will be here for you.                                </p>
+
+
+              </div>
+
+            </div>
+            <div className="cards">
+
+              <div className="left-img">
+                <AiFillStar />
+              </div>
+              <div className="right-content">
+
+
+                <h2>OPEN 6 DAYS A WEEK</h2>
+                <p>
+                  Mon to Fri – 8:00am to 9:00pm
+                  Saturday – 9:00am to 5:00pm
+                  Sunday – Closed                                </p>
+
+
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
 
 
 

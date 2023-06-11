@@ -219,11 +219,11 @@ gap: 30px;      }
 } .cards{
     display: flex;
     flex-direction: column;
-    width: 60%;
-    margin: 0px 0px 0px;
+    width: 100%;
+    margin: 50px 0px 0px !important;
 }
 .left-img{
-    margin-left: 0px;
+    margin-top: 0px !important;
 }
 .main-content{
     margin: 0px;
@@ -234,6 +234,9 @@ gap: 30px;      }
 .timing h1{
   font-size: 20px !important;
 
+}
+.cards{
+  gap: 10px !important;
 }
 
  }
