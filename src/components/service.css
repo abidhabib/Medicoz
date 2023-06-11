@@ -8,17 +8,89 @@
 }
 .medical{
     width: 100%;
-height: 100vh;  
-border:  1px solid crimson;
 display: flex;
 justify-content: center;
 }
 .med-divs{
     width: 80%;
-    border: 1px solid crimson;
+    display:  flex;
 }
 .med-left{
     width: 70%;
-    border: 1px solid rgb(0, 56, 241);
     height: 100%;
+}
+.med-right{
+    width: 30%;
+    border: 1px solid black;
+}
+.left-content{
+    width: 100%;
+    display:  flex;
+}
+.p1{
+    width: 50%;
+    
+}
+.p2{
+    width: 50%;
+
+
+}
+.medical ul {
+    margin-left: 20px;
+  }
+  
+  .medical li {
+    margin-bottom: 10px;
+  }
+  .p1 ul li{
+    list-style-type: disc;
+margin-left: 16px;  }
+  .p1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .p2 ul li{
+    list-style-type: disc;
+margin-left: 16px;  }
+.service-img-cont{
+    width: 100%;
+    display: flex;
+justify-content: center;}
+.img-cont{
+    width: 80%;
+    border: 1px solid crimson;
+margin-top: 30px;
+z-index: 9999;
+}
+.serviceh{
+    width: 60%;
+    
+  
+}
+.div-s-c{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding: 10px;
+    gap: 20px;
+    color: white;
+}
+.more-info-btn{
+    background-color: white;
+    color: crimson;
+    padding:  10px 20px ;
+    border-radius: 2px;
+    border:  1px solid red;
+
+}
+.more-info-btn:hover{
+    background-color: rgb(255, 0, 51);
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
