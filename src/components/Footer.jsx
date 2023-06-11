@@ -41,7 +41,9 @@ const Footer = () => {
                             <li><a href="#">(718) 918-9676
 
                             </a></li>
-                            <li><a href="#">
+                            <li><a href="#">bronxparkurgentmedicalcare@gmail.com
+
+
                             </a></li>
 
                         </ul>

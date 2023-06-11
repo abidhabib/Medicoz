@@ -1,21 +1,27 @@
 import React from 'react'
-import Top from './components/Top'
+import Home from './components/Home'
 import Sidebar from './components/Sidebar'
-import Slider from './components/Slider'
-import Mainhome from './components/Mainhome'
+import Services from './components/Services'
+import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import Top from './components/Top'
 import Footer from './components/Footer'
 const App = () => {
   return (
 <>
-
-
+<BrowserRouter>
 <Top/>
 <Sidebar/>
-<Slider/>
-<Mainhome/>
+<Routes>
+<Route path='/' element={<Home/>}/>
+<Route path='/services' element={<Services/>}/>
+  
+</Routes>
+
+
 <Footer/>
 
 
+</BrowserRouter>
 </>  )
 }
 

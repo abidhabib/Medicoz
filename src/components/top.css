@@ -1,4 +1,4 @@
-.container {
+.container-y {
     height: 50px;
     width: 80%;
     display: flex;
@@ -10,15 +10,18 @@
     border-left: none;
     border-right: none;
     border-top: none;
-    font-size: 14px;
+    font-size: 14px !important;
+
 
 }
-.call,.hours{
+.call-us,.hours{
     color: #aeafb5;
+
 }
 .left{
     width: 80%;
     display: flex;
+    
     gap: 50px;
 align-items: center;}
 .right{
@@ -45,16 +48,16 @@ transition: all     0.3s ease-in-out;
     .btn {
       display: none;
     }
-    .container {
+    .container-y {
         width: 100%;
     }
   }
   @media (max-width: 780px)
   {
-    .container {
+    .container-y {
         display: none;
     }
   }
-  .container.scrolled .btn.hidden {
+  .container-y.scrolled .btn.hidden {
     display: none;
   }

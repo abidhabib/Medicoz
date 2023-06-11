@@ -15,6 +15,8 @@ footer{
   bottom: 0;
   left: 0;
   margin-top: 20px;
+  position: relative;
+  bottom: 0;
 }
 
 footer .content{
@@ -200,6 +202,16 @@ justify-content: flex-start;  }
     position: relative;
     
   }
+  .policy_terms{
+    display: none;
+  }
+  footer .bottom-details .bottom_text {
+    justify-content: center;
+  }
+  .copyright_text{
+    font-size: 30px !;
+
+  }
   .content .top .logo-details{
     font-size: 26px;
   }
@@ -269,4 +281,11 @@ justify-content: flex-start;  }
 .flogo{
     width: 200px;
     height: 60px;
+}
+.box{
+  font-size: 14px !important;
+}
+.copyright_text{
+  font-size: 12px !important;
+  font-family: ' Poppins', sans-serif;
 }

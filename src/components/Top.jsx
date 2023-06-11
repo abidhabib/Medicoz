@@ -25,7 +25,7 @@ const Top = () => {
 
     return (
         <>
-            <div className={`container${isScrolled ? ' scrolled' : ''}`}>
+            <div className={`container-y${isScrolled ? ' scrolled' : ''}`}>
                 <div className="left">
                     <div className="call">
                         <div className="call-us">
