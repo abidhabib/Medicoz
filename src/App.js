@@ -5,6 +5,7 @@ import Services from './components/Services'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Top from './components/Top'
 import Footer from './components/Footer'
+import Insurance from './components/Insurance'
 const App = () => {
   return (
 <>
@@ -14,6 +15,7 @@ const App = () => {
 <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/services' element={<Services/>}/>
+<Route path='/insurance' element={<Insurance/>}/>
   
 </Routes>
 
