@@ -6,6 +6,8 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Top from './components/Top'
 import Footer from './components/Footer'
 import Insurance from './components/Insurance'
+import Ourteam from './components/Ourteam'
+import ContactUs from './components/ContactUs'
 const App = () => {
   return (
 <>
@@ -16,6 +18,10 @@ const App = () => {
 <Route path='/' element={<Home/>}/>
 <Route path='/services' element={<Services/>}/>
 <Route path='/insurance' element={<Insurance/>}/>
+<Route path='/ourteam' element={<Ourteam/>}/>
+<Route path='/contact' element={<ContactUs/>}/>
+
+
   
 </Routes>
 

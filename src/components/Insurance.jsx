@@ -1,6 +1,7 @@
 import React from 'react';
 import './insurance.css';
 import insimg from '../img/ins.png';
+import inssmain from '../img/insmain.jpeg';
 const Insurance = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const Insurance = () => {
       <div className="ins-main">
         <div className="ins-center">
           <div className="ins-img">
-            img
+            <img  src={inssmain} alt="" />
           </div>
           <div className="ins-content">
             <h1>Insurance</h1>
@@ -43,6 +44,9 @@ const Insurance = () => {
             </ul>
           </div>
           <div className="ins-contact"></div>
+          <h1>
+            Contact Form...................
+          </h1>
         </div>
       </div>
     </>
