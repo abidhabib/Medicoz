@@ -40,9 +40,18 @@ const Top = () => {
                     </div>
                 </div>
                 <div className="right">
-                    <button className={`btn${isScrolled ? ' hidden' : ''}`}>
+                  <a
+                
+                  
+                  href="https://www.solvhealth.com/r/book-online/A9dka0/yG2zUxIIt-waoxjnd95Y5/slots/today"><button 
+                  style={
+                    {
+                        cursor: 'pointer',
+                    }
+                  }
+                  className={`btn${isScrolled ? ' hidden' : ''}`}>
                         Book Now! <span><MdMedication /></span>
-                    </button>
+                    </button></a>  
                 </div>
             </div>
         </>

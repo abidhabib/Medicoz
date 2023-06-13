@@ -64,9 +64,10 @@ const Footer = () => {
                         <span className="copyright_text">©2023 Bronx Park Urgent Medical Care. All rights reserved.
                         </span>
                         <span className="policy_terms">
-                           Insurance
-                            <a href="#">Our Team</a>
-                            <a href="#">Services</a>
+                           
+                        <a href="/">Home</a>
+                            <a href="/services">Services</a>
+                            <a href="/ourteam">Our Team</a>
 
                         </span>
                     </div>

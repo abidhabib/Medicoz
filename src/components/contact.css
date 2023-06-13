@@ -1,0 +1,70 @@
+.wpb_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .wpb{
+width: 80vw;
+    height: 500px;
+    z-index: 99999;
+    padding: 20px;
+}
+.getintouch{
+    width: 100%;
+    border-top: 1px solid rgba(156, 156, 156, 0.336);
+    margin-top: 30px;
+}
+.tw-div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.tw-left{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+        padding: 10px;
+        font-size: 16px;
+}
+.tw-right{
+    width: 50%;
+    height:100%;
+   
+}
+.tw-right .div1 .div2{
+    padding: 10px;
+}
+.iconx{
+    color: crimson;
+    font-size: 18px;
+}
+@media (max-width: 868px) {
+ .tw-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+ }
+ .tw-left{
+ width: 100%;
+    gap: 20px;
+        padding: 0px;
+        font-size: 14px;
+}
+.tw-right{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.med-ight{
+    margin-top: 30px;
+}
+    }

@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* 1st logo part  */}
         <div className="logo">
           <h2>
-            <img src={logo} alt="" />
+          <a href="/"> <img src={logo} alt="" /> </a> 
           </h2>
         </div>
 
