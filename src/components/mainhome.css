@@ -274,7 +274,7 @@ margin-top: 20px; }
     align-items: center;
     width: 400px;
     height: 250px;
-    gap: 30px;
+    gap: 31px;
  }
  .cards:hover{
 background-color: wheat;
