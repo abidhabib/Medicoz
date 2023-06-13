@@ -3,7 +3,7 @@ import "./sidebar.css";
 import logo from "../img/logo.png";
 import { MdMedication } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { BrowserRouter as Router, Link, Route, Routes, Outlet } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Routes, Outlet, NavLink } from "react-router-dom";
 import App from "../App";
 import Services from "./Services";
 
@@ -44,22 +44,25 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li>
-              <Link to="/">
-                <span className="home-active">HOME</span>{" "}
-              </Link>
+            <li onClick={()=>setShowMediaIcons(false)}>
+           <NavLink to="/" className={({ isActive }) => (isActive ? "home-active" : "navlink")}>
+
+           
+               HOME
+            
+           </NavLink>
             </li>
-            <li>
-              <Link to="/services">SERVICE</Link>
+            <li onClick={()=>setShowMediaIcons(false)}>
+              <NavLink to="/services" className={({ isActive }) => (isActive ? "home-active" : "navlink")}>SERVICE</NavLink>
             </li>
-            <li>
-              <Link to="/insurance"> INSURANCE</Link>
+            <li onClick={()=>setShowMediaIcons(false)}>
+              <NavLink to="/insurance" className={({ isActive }) => (isActive ? "home-active" : "navlink")}> INSURANCE</NavLink>
             </li>
-            <li>
-              <Link to="/ourteam">OUR TEAM</Link>
+            <li onClick={()=>setShowMediaIcons(false)}>
+              <NavLink to="/ourteam" className={({ isActive }) => (isActive ? "home-active" : "navlink")}>OUR TEAM</NavLink>
             </li>
-            <li>
-              <Link to="/contact">CONTACT</Link>
+            <li onClick={()=>setShowMediaIcons(false)}>
+              <NavLink to="/contact" className={({ isActive }) => (isActive ? "home-active" : "navlink")}>CONTACT</NavLink>
             </li>
           </ul>
         </div>

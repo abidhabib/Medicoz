@@ -2,6 +2,7 @@ import React from 'react';
 import './insurance.css';
 import insimg from '../img/ins.png';
 import inssmain from '../img/insmain.jpeg';
+import ContactUs from './ContactUs';
 const Insurance = () => {
   return (
     <>
@@ -44,9 +45,8 @@ const Insurance = () => {
             </ul>
           </div>
           <div className="ins-contact"></div>
-          <h1>
-            Contact Form...................
-          </h1>
+       
+          <ContactUs />
         </div>
       </div>
     </>

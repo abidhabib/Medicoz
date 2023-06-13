@@ -7,7 +7,7 @@ import Top from './components/Top'
 import Footer from './components/Footer'
 import Insurance from './components/Insurance'
 import Ourteam from './components/Ourteam'
-import ContactUs from './components/ContactUs'
+import Contact from './components/Contact'
 const App = () => {
   return (
 <>
@@ -19,7 +19,7 @@ const App = () => {
 <Route path='/services' element={<Services/>}/>
 <Route path='/insurance' element={<Insurance/>}/>
 <Route path='/ourteam' element={<Ourteam/>}/>
-<Route path='/contact' element={<ContactUs/>}/>
+<Route path='/contact' element={<Contact/>}/>
 
 
   

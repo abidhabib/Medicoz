@@ -1,12 +1,12 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
-
+import './contactus.css'
 // npm i @emailjs/browser
 
 const ContactUs = () => {
   const form = useRef();
-
+console.log(form);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -21,6 +21,8 @@ const ContactUs = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          form.current.reset();
+       
         },
         (error) => {
           console.log(error.text);
@@ -30,6 +32,11 @@ const ContactUs = () => {
 
   return (
     <StyledContactForm>
+       <h1 style={{ textAlign: "center" ,
+        fontSize: '30px',}
+      }>
+                        Contact Us
+                      </h1>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />
@@ -52,14 +59,15 @@ export default ContactUs;
 
 // Styles
 const StyledContactForm = styled.div`
-  width: 400px;
-
+  width: 300px;
+ 
   form {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
     font-size: 16px;
+    font-family: "Poppins", sans-serif;
 
     input {
       width: 100%;
