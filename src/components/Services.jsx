@@ -157,8 +157,9 @@ const Services = () => {
 
           >
             <div className="cards"
-              style={{
-                //  here i can ad style
+                style={{
+                  boxShadow: "0 0 20px 0 rgba(0, 0, 0, 0.2)",
+                  borderRadius: "10px"
               }}
             >
 
@@ -178,7 +179,12 @@ const Services = () => {
 
             </div>
 
-            <div className="cards">
+            <div className="cards"
+               style={{
+                boxShadow: "0 0 20px 0 rgba(0, 0, 0, 0.2)",
+                borderRadius: "10px"
+            }}
+            >
 
               <div className="left-img">
                 <FcLike />
@@ -194,7 +200,12 @@ const Services = () => {
               </div>
 
             </div>
-            <div className="cards">
+            <div className="cards"
+               style={{
+                boxShadow: "0 0 20px 0 rgba(0, 0, 0, 0.2)",
+                borderRadius: "10px"
+            }}
+            >
 
               <div className="left-img">
                 <AiFillStar />

@@ -58,7 +58,11 @@ const Mainhome = () => {
                     </h1>
                     <hr className='hr-t' />
                     <div className="cards-container">
-                        <div className="cards">
+                        <div className="cards"
+                           style={{
+                            boxShadow: "0 0 20px 0 rgba(0, 0, 0, 0.2)",
+                            borderRadius: "10px"
+                        }}>
 
                             <div className="left-img">
                                 <FaStethoscope />
@@ -76,8 +80,13 @@ const Mainhome = () => {
 
                         </div>
 
-                        <div className="cards">
-
+                        <div className="cards" 
+                        style={{
+                            boxShadow: "0 0 20px 0 rgba(0, 0, 0, 0.2)",
+                            borderRadius: "10px"
+                        }}
+                        >
+ 
                             <div className="left-img">
                                 <BsDropletFill />
                             </div>
@@ -93,7 +102,13 @@ const Mainhome = () => {
                             </div>
 
                         </div>
-                        <div className="cards">
+                        <div className="cards"
+                        
+                        style={{
+                            boxShadow: "0 0 20px 0 rgba(0, 0, 0, 0.2)",
+                            borderRadius: "10px"
+                        }}
+                        >
 
                             <div className="left-img">
                                 <BsEyeFill />

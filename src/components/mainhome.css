@@ -270,10 +270,15 @@ gap: 30px;      }
 margin-top: 20px; }
  .cards{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 400px;
-    height: 200px;
+    height: 250px;
     gap: 30px;
  }
+ .cards:hover{
+background-color: wheat;
+cursor: pointer;}
  .right-content{
     display: flex;
     width: 90%;
